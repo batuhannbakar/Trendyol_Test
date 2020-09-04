@@ -43,7 +43,7 @@ public class SignInFunction extends BasePage{
 	public String actualTitle = null;
 	public String actualLink = null;
 
-	public String mainAssert = "En Trend Ürünler Türkiye'nin Online Alýþveriþ Sitesi Trendyol'da"; 
+	public String mainAssert = "En Trend ÃœrÃ¼nler TÃ¼rkiye'nin Online AlÃ½Ã¾veriÃ¾ Sitesi Trendyol'da"; 
 	public String loginAssert = "trendyol.com/butik/liste";
 
 	
@@ -125,7 +125,8 @@ public class SignInFunction extends BasePage{
   		}
   		
   		System.out.println("first value : "+text1Price+"Bucket Value : "+str);
-		Assert.assertEquals(str, text1Price);
+		Assert.assertEquals(text1Price.replace("TL", "").trim(), str.replace("TL", "").trim());
+
 
   		thread(1500);
 
