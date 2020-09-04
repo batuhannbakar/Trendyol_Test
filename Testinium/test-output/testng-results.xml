@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="32480" started-at="2020-09-04T16:11:22 EET" finished-at="2020-09-04T16:11:55 EET">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="32480" started-at="2020-09-04T16:11:22 EET" finished-at="2020-09-04T16:11:55 EET">
+      <class name="testCases.SignInTest">
+        <test-method status="PASS" signature="signInTestCase()[pri:0, instance:testCases.SignInTest@2c039ac6]" name="signInTestCase" duration-ms="28991" started-at="2020-09-04T16:11:26 EET" finished-at="2020-09-04T16:11:55 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signInTestCase -->
+      </class> <!-- testCases.SignInTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
